@@ -1331,6 +1331,10 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    14. Novasper
    ========================================================================== */
+body.home-template {
+    background-color: black;
+    color: white;
+}
 
 .home-template .main-header {
     margin-bottom: 0;
@@ -1346,7 +1350,6 @@ body:not(.post-template) .post-title {
 }
 
 .post-excerpt-wrapper {
-    background-color: black;
     padding: 2rem 0;
 }
 
