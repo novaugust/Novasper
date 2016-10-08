@@ -2,41 +2,48 @@
 
 This is a customization of the default theme for [Ghost](http://github.com/tryghost/ghost/), [Casper](http://github.com/tryghost/casper/)).
 
-To download, visit the [releases](https://github.com/novaugust/novasper/releases) page.
+**To download** visit the [releases](https://github.com/novaugust/novasper/releases) page.
 
-## Differences From Casper
 
-### Demo
-This blog is always live over at [blog.novaugust.net](http://blog.novaugust.net)
+## Features
 
-#### Post image
+- **Post Description**: post `meta_description` is used as the post excerpt description text, rather than the first x words of the post
+- **Post Image**: On any page with post excerpts (home page, archive page, author page, tag page, etc), the post's image is displayed as a full-width background image behind the post excerpt.
+- **Full width images**: images within posts are displayed at full browser width
+- **Post excerpt hover effect**: There's a cute animation when you hover over post titles, stolen from Tympanus. That's all.
 
-This theme prioritizes photos. On any page with post excerpts (home page, archive page, author page, tag page, etc), the post's image is displayed as a full-width background image behind the post excerpt.
+## Examples
 
-![Post excerpt example](https://raw.githubusercontent.com/novaugust/Novasper/novasper/screenshots/post-excerpt.png)
+### Live
 
-The image is again emphasized in the header of the post.
+You can see this theme in action at
 
-#### Images in posts
+- [blog.novaugust.net](http://blog.novaugust.net)
+- [smaertin](http://smaertin.com)
 
-Images in posts are blown out to 100% of the user's viewport, without going beyond the image's actual dimensions and stretching.
+### Screenshots
 
-Vertically oriented images are limited to 150% of the user's viewport's height, meaning they'll require scrolling, but won't be unhandleable
+Taken from [blog.novaugust.net](blog.novaugust.net) with post count set to eight.
 
-![Fullscreen image](https://raw.githubusercontent.com/novaugust/Novasper/novasper/screenshots/fullscreen-example.png)
+#### Full-sized
 
-#### Tympanus Post Title Hover Effects
+![](screenshots/fullpage.jpg)
 
-There's a cute animation when you hover over post titles. That's all.
+#### Mobile
 
-#### Inverted Colors
-
-This theme favors darker backgrounds (hex #222) and so inverts font colors to be readable on it.
+![](screenshots/mobile.jpg)
 
 ## Copyright & License
-Casper's Copyright follows below.
+
+#### Novasper
+
+Copyright 2014-2016 Matt Enlow. Released under MIT License.
+
+#### Casper
 
 Copyright (c) 2013-2016 Ghost Foundation - Released under the MIT License.
+
+### MIT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

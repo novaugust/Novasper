@@ -1,1 +1,2 @@
-rm novasper.zip || true && zip -r novasper *.hbs assets partials
+rm novasper.zip
+zip -r novasper *.hbs assets partials package.json
