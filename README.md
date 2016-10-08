@@ -1,6 +1,6 @@
 # Novasper
 
-This is a customization of the default theme for [Ghost](http://github.com/tryghost/ghost/), [Casper](http://github.com/tryghost/casper/)).
+This is a customization of [Casper](http://github.com/tryghost/casper/), the default theme for [Ghost](http://github.com/tryghost/ghost/).
 
 **To download** visit the [releases](https://github.com/novaugust/novasper/releases) page.
 
