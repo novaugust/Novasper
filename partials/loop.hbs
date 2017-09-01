@@ -1,6 +1,6 @@
 {{! This is the post loop - each post will be output using this markup }}
 {{#foreach posts}}
-<article class="post-excerpt-wrapper{{#if image}} post-image" style="background-image: url({{image}});{{/if}}">
+<article class="post-excerpt-wrapper{{#if feature_image}} post-image" style="background-image: url({{img_url feature_image}});{{/if}}">
     <div class="{{post_class}}">
         <header class="post-header">
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
@@ -10,10 +10,9 @@
         </section>
         <footer class="post-meta">
             {{!--
-            {{#if author.image}}<img class="author-thumb" src="{{author.image}}" alt="Author image" nopin="nopin" />{{/if}}
+            {{#if author.profile_image}}<img class="author-thumb" src="{{img_url author.profile_image}}" alt="Author image" nopin="nopin" />{{/if}}
             --}}
-            {{author}}
-            {{tags prefix=" on "}}
+            {{tags prefix="on "}}
             <br>
             <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
         </footer>
